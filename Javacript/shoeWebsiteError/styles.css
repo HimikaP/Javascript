@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.shoe{
+    width:30vw;
+    margin: 40px 10px 10px 40px;
+    border:2px solid black;
+}
+
+h2{
+    color:rgb(43, 42, 42);
+    margin:15px;
+    
+}
+
+button{
+    padding: 10px;
+    margin:20px;
+    margin-bottom:5px;
+    color:antiquewhite;
+    font-size: 15px;
+    background-color: rgb(90, 63, 63);
+    border-radius: 20px;
+}
+
+#error{
+    color:brown;
+    font-weight:250px;
+}
