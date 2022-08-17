@@ -6,3 +6,12 @@ var tweetct = tweet.length
 
 var left = 140 - tweetct;
 alert("You have written "+ tweetct + " characters, and you have " + left + " characters left" );
+
+
+// program to print capitalised name as alert 
+var name=(prompt("Enter the text"));
+var len = name.length;
+var namecap = name.slice(0,1)
+var namerest = name.slice(1,len);
+
+alert("Hi" + namecap + namerest);
