@@ -1,0 +1,8 @@
+// this program behave like a tweet writer but in alert form 
+
+alert("Enter text");
+var tweet=prompt("Enter the text");
+var tweetct = tweet.length
+
+var left = 140 - tweetct;
+alert("You have written "+ tweetct + " characters, and you have " + left + " characters left" );
